@@ -87,10 +87,6 @@ import HQChart from "hqchart";
 import "hqchart/src/jscommon/umychart.resource/css/tools.css";
 import "hqchart/src/jscommon/umychart.resource/font/iconfont.css";
 import pako from "pako";
-
-// import Chart from "./jscommon/umychart.vue/umychart.vue.js";
-// var HQChart = { Chart: Chart };
-// 更新2
 function DefaultData() {}
 
 DefaultData.GetKLineOption = function () {
