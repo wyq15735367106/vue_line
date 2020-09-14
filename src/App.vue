@@ -90,7 +90,7 @@ import pako from "pako";
 
 // import Chart from "./jscommon/umychart.vue/umychart.vue.js";
 // var HQChart = { Chart: Chart };
-
+// 更新
 function DefaultData() {}
 
 DefaultData.GetKLineOption = function () {
@@ -474,7 +474,7 @@ export default {
           let msg = pako.inflate(ploydata, { to: "string" });
           //console.log("[KLineChart::RequestWSData] recv ws data ",msg)
           var recvData = JSON.parse(msg);
-            console.log(recvData);
+          console.log(recvData);
           if (recvData.ping) {
             this.SendWSHeartMessage(); //回复服务器心跳包
           } else if (recvData.unsubbed) {
